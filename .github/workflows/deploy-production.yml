@@ -1,0 +1,51 @@
+name: Деплой блога на прод
+on:
+  push:
+    branches:
+      - main
+concurrency: production_environment
+
+jobs:
+  deploy:
+    name: Сборка прода
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download CSSSR actions
+        uses: actions/checkout@v2
+        with:
+          repository: CSSSR/actions
+          ssh-key: ${{ secrets.DOWNLOAD_ACTIONS_SSH_KEY }}
+          path: actions
+
+      - uses: actions/checkout@v2
+        with:
+          path: lorem-scriptum
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-node@v2-beta
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@csssr'
+
+      - name: Install dependencies
+        working-directory: lorem-scriptum
+        run: yarn install --frozen-lockfile
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_GITHUB_REGISTRY_TOKEN }}
+
+      - name: Build prod
+        working-directory: lorem-scriptum
+        run: make build
+
+      - name: Деплой на продакшен
+        uses: ./actions/deploy-static-site/v1beta1
+        with:
+          auth: ${{ secrets.CDN_UPLOAD_SECRET }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          site-type: mpa
+          project-id: lorem-scriptum
+          files: ./lorem-scriptum/dist
+          no-previous-files: 'true'
+          host: lorermscriptum.com
+          environment: production
