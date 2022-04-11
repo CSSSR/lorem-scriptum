@@ -5,7 +5,7 @@
   position: fixed;
   z-index: 999;
   right: 0;
-  bottom: 0;
+  bottom: 48px;
   left: 0;
 
   display: flex;
@@ -16,8 +16,9 @@
   background-color: var(--color-black);
 
   @media (--tablet) {
+    right: var(--space-xl);
     bottom: var(--space-xl);
-    left: var(--space-xl);
+    left: auto;
 
     width: 257px;
     padding: var(--space-xl);
@@ -67,7 +68,14 @@
 }
 
 .cookieBanner__confirmButton {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  min-width: 114px;
   @media (--tablet) {
+    position: static;
+
     width: 100%;
   }
 }
