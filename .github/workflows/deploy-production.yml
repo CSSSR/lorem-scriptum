@@ -47,5 +47,5 @@ jobs:
           project-id: lorem-scriptum
           files: ./lorem-scriptum/dist
           no-previous-files: 'true'
-          host: lorermscriptum.com
+          host: loremscriptum.com
           environment: production
