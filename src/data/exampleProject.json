@@ -13,12 +13,12 @@
     },
     {
       "mod": "cloud",
-      "title": "Cloud & DevOps",
+      "title": "Cloud &amp;&nbsp;DevOps",
       "value": "1 engineer (part time)"
     },
     {
       "mod": "web",
-      "title": "Web & Mobile Development",
+      "title": "Web &amp;&nbsp;Mobile Development",
       "value": "3 engineers"
     },
     {
@@ -29,7 +29,7 @@
   ],
 
   "projectCosts": {
-    "title": "4 months example project costs",
+    "title": "4&nbsp;months example project costs",
 
     "costs": [
       {
