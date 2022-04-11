@@ -1,5 +1,5 @@
 {% if applicationForm %}
-  <section class="applicationForm">
+  <section id="formContainer" class="applicationForm">
     <h2 class="visually-hidden">{{ applicationForm.seoTitle }}</h2>
 
     <div class="applicationForm__contacts">
@@ -24,13 +24,54 @@
       </a>
     </div>
 
-    <form id="applicationForm" class="applicationForm__form">
-      <input class="input" name="email" placeholder="Email" type="email"/>
-      <input class="input" name="messengers" placeholder="Telegram, WA, Viber, etc" type="text"/>
+    <div class="applicationForm__steps">
+      <form id="applicationForm" class="applicationForm__form">
+        <div class="applicationForm__field">
+          <input
+            id="applicationFormEmail"
+            class="input applicationForm__email"
+            name="email"
+            placeholder="Email *"
+            type="email"
+            required
+            maxlength="320"
+          />
+          <div class="applicationForm__error"></div>
+        </div>
 
-      <textarea class="input applicationForm__message" name="message" placeholder="Describe your project" name="w3review" rows="4" cols="50"></textarea>
+        <div class="applicationForm__field">
+          <input
+            class="input applicationForm__messengers"
+            name="phone"
+            placeholder="Telegram, WA, Viber, etc" type="text"
+            maxlength="500"
+          />
+        </div>
 
-      <button class="button applicationForm__submitButton" type="submit">Send Message</button>
-    </form>
+        <div class="applicationForm__field applicationForm__field_message">
+          <textarea
+            id="applicationFormMessage"
+            class="input applicationForm__message"
+            name="message"
+            placeholder="Describe your project *"
+            required
+            maxlength="2000"
+          ></textarea>
+          <div class="applicationForm__error"></div>
+        </div>
+
+        <button class="button applicationForm__submitButton" type="submit">Send Message</button>
+      </form>
+
+      <div class="applicationForm__successScreen">
+          <svg class="applicationForm__checkIcon" fill="none" viewBox="0 0 40 32">
+            <path fill="#38BA71" d="M38.7498 0.90625H35.4732C35.0138 0.90625 34.5779 1.11719 34.2967 1.47812L14.9701 25.9609L5.70291 14.2188C5.56272 14.0408 5.38403 13.8968 5.18025 13.7978C4.97648 13.6987 4.75291 13.6471 4.52634 13.6469H1.24978C0.935719 13.6469 0.762282 14.0078 0.954469 14.2516L13.7935 30.5172C14.3935 31.2766 15.5467 31.2766 16.1513 30.5172L39.0451 1.50625C39.2373 1.26719 39.0639 0.90625 38.7498 0.90625Z"/>
+          </svg>
+
+          <span class="applicationForm__successMessage">
+            Message sent successfully. We&nbsp;will be&nbsp;in&nbsp;touch with you shortly.
+          </span>
+        </div>
+      </div>
   </section>
 {% endif %}
