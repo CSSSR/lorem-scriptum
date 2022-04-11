@@ -1,0 +1,16 @@
+version: 1-alpha.1
+
+releases:
+  lorem-scriptum:
+    name: lorem-scriptum
+    autodeploy-on: default
+    chart: csssr/static-site@~1.1.0
+    slack:
+      - C039BV2S5U0 # lorem_scriptum_site
+    static-params:
+      projectID: lorem-scriptum
+      tlsSecret: lorem-scriptum-tls
+    builds:
+      - workflow: deploy-testing.yml
+        values:
+          buildID: build-{{ .Build.RunID }}

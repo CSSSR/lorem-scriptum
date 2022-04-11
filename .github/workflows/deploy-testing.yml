@@ -1,0 +1,51 @@
+name: Деплой на тестинг
+on:
+  workflow_dispatch:
+    inputs:
+      kuberta_system:
+
+jobs:
+  deploy:
+    name: Сборка тестинга
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: docker://quay.csssr.cloud/csssr/kuberta-init-workflow:v1
+
+      - name: Download CSSSR actions
+        uses: actions/checkout@v2
+        with:
+          repository: CSSSR/actions
+          ssh-key: ${{ secrets.DOWNLOAD_ACTIONS_SSH_KEY }}
+          path: actions
+
+      - uses: actions/checkout@v2
+        with:
+          path: lorem-scriptum
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-node@v2-beta
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@csssr'
+
+      - name: Install dependencies
+        working-directory: lorem-scriptum
+        run: yarn install --frozen-lockfile
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_GITHUB_REGISTRY_TOKEN }}
+
+      - uses: docker://quay.csssr.cloud/csssr/github-info:v1
+        id: gh
+
+      - name: Build testing
+        working-directory: lorem-scriptum
+        run: make build
+
+      - uses: ./actions/upload-static/v1beta1
+        with:
+          project-id: lorem-scriptum
+          files: ./lorem-scriptum/dist
+          no-previous-files: 'true'
+          auth: ${{ secrets.CDN_UPLOAD_SECRET }}
+          token: ${{ secrets.GITHUB_TOKEN }}
