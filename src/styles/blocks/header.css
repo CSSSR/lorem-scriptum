@@ -1,0 +1,112 @@
+.page-header {
+  font-family: 'Roboto Slab', serif;
+
+  max-width: 1440px;
+  margin-right: auto;
+  margin-bottom: var(--space-xl);
+  margin-left: auto;
+  padding-right: var(--space-xs);
+  padding-left: var(--space-xs);
+
+  @media (--tablet) {
+    padding-right: var(--space-l);
+    padding-left: var(--space-l);
+  }
+
+  @media (--desktop-s) {
+    padding-right: var(--space-2xl);
+    padding-left: var(--space-2xl);
+  }
+
+  @media (--desktop-m) {
+    margin-bottom: var(--space-2xl);
+  }
+}
+
+.page-header__logo {
+  margin-right: var(--space-s);
+
+  @media (--tablet) {
+    margin-right: var(--space-m);
+  }
+}
+
+.page-header__top-row {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: var(--space-2xl);
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+
+  @media (--tablet) {
+    margin-bottom: var(--space-3xl);
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-m);
+  }
+
+  @media (--desktop-s) {
+    margin-bottom: var(--space-4xl);
+  }
+}
+
+.page-header__company-name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+
+  @media (--tablet) {
+    font-size: 18px;
+  }
+}
+
+.page-header__label {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 12px;
+
+  margin-left: auto;
+  padding: var(--space-2xs);
+
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: var(--color-black);
+  border-radius: 8px;
+  background-color: var(--color-yellow);
+
+  @media (--tablet) {
+    font-size: 14px;
+    line-height: 16px;
+
+    padding: var(--space-xs);
+  }
+}
+
+.page-header__title {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 48px;
+
+  max-width: 268px;
+  margin-right: auto;
+  margin-left: auto;
+
+  text-align: center;
+
+  @media (--tablet) {
+    font-size: 32px;
+    line-height: 48px;
+
+    max-width: 350px;
+  }
+
+  @media (--desktop-s) {
+    font-size: 64px;
+    line-height: 80px;
+
+    max-width: 700px;
+  }
+}

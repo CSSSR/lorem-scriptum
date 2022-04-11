@@ -1,0 +1,151 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+
+  margin: var(--space-3xl) auto;
+  row-gap: var(--space-xl);
+
+  @media (--tablet) {
+    margin-bottom: var(--space-4xl);
+    row-gap: var(--space-3xl);
+  }
+
+  @media (--desktop-m) {
+    margin-bottom: var(--space-5xl);
+  }
+}
+
+.review {
+  @media (--tablet) {
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+    padding-top: 50px;
+    padding-left: 62px;
+  }
+
+  @media (--desktop-s) {
+    padding-left: 76px;
+  }
+
+  @media (--desktop-m) {
+    padding-left: 100px;
+  }
+}
+
+.review__link {
+  font-size: 16px;
+  line-height: 24px;
+
+  @media (--tablet) {
+    font-size: 24px;
+    line-height: 40px;
+
+    position: absolute;
+    top: 0;
+  }
+}
+
+.review__card {
+  margin-top: var(--space-xs);
+  padding: var(--space-m);
+
+  background-color: var(--bg-color-night);
+
+  @media (--tablet) {
+    width: 658px;
+    padding: var(--space-xl);
+    padding-left: 62px;
+  }
+
+  @media (--desktop-s) {
+    width: 832px;
+    padding: var(--space-3xl);
+    padding-left: 78px;
+  }
+
+  @media (--desktop-m) {
+    width: 1098px;
+    padding-left: 104px;
+  }
+}
+
+.review__authorImg {
+  width: 160px;
+  height: 160px;
+  margin-bottom: var(--space-m);
+
+  @media (--tablet) {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0;
+  }
+
+  @media (--desktop-s) {
+    width: 132px;
+    height: 132px;
+  }
+
+  @media (--desktop-m) {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+.review__text {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: var(--space-3xs);
+
+  @media (--desktop-m) {
+    margin-bottom: var(--space-xs);
+  }
+}
+
+.review__cite {
+  font-size: 20px;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 32px;
+
+  margin-bottom: var(--space-m);
+
+  @media (--desktop-s) {
+    margin-bottom: var(--space-l);
+  }
+
+  @media (--desktop-m) {
+    font-size: 32px;
+    line-height: 48px;
+
+    margin-bottom: var(--space-xl);
+  }
+}
+
+.review__author {
+  font-size: 16px;
+  line-height: 24px;
+
+  @media (--desktop-m) {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+
+.review__company {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+
+  @media (--desktop-m) {
+    font-size: 16px;
+  }
+}

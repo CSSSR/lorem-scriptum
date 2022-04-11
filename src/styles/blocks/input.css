@@ -1,0 +1,15 @@
+.input {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+
+  padding: var(--space-m);
+
+  color: var(--white);
+  border: none;
+  background-color: var(--color-gray25);
+
+  &::placeholder {
+    color: var(--color-gray);
+  }
+}

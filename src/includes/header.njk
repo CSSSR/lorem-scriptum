@@ -1,0 +1,22 @@
+<header class="page-header">
+  <div class="page-header__top-row">
+    <img
+      class="page-header__logo"
+      src="/assets/logo.svg"
+      width="32"
+      height="22"
+      alt="Company logo lorem scriptum"
+    />
+    <span class="page-header__company-name">
+      Lorem Scriptum
+    </span>
+
+    {% if header.label %}
+      <span class="page-header__label">{{ header.label }}</span>
+    {% endif %}
+  </div>
+
+  {% if header.title %}
+    <h1 class="page-header__title">{{ header.title }}</h1>
+  {% endif %}
+</header>

@@ -1,0 +1,251 @@
+.footer {
+  padding-top: var(--space-m);
+  padding-bottom: var(--space-l);
+
+  border-top: 1px solid var(--color-black-olive);
+
+  @media (--tablet) {
+    padding: var(--space-xl) 0;
+  }
+
+  @media (--desktop-s) {
+    padding: var(--space-2xl) 0;
+  }
+}
+
+.footer__container {
+  display: grid;
+
+  row-gap: var(--space-2xl);
+  column-gap: var(--space-xl);
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (--tablet) {
+    grid-template-columns: repeat(12, 38px);
+    row-gap: var(--space-xl);
+  }
+
+  @media (--desktop-s) {
+    grid-template-columns: repeat(12, 53px);
+    grid-template-rows: repeat(3, min-content);
+
+    align-items: flex-start;
+  }
+
+  @media (--desktop-m) {
+    grid-template-columns: repeat(12, 78px);
+    grid-template-rows: repeat(2, min-content);
+    row-gap: var(--space-2xl);
+  }
+}
+
+.contact {
+  font-style: normal;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_estonia {
+  @media (--tablet) {
+    grid-column: 1 / span 3;
+  }
+
+  @media (--desktop-s) {
+    grid-column: 1 / span 2;
+  }
+}
+
+.contact_usa {
+  @media (--tablet) {
+    grid-column: 4 / span 3;
+  }
+
+  @media (--desktop-s) {
+    grid-column: 3 / span 2;
+  }
+}
+
+.contact_singapore {
+  @media (--tablet) {
+    grid-column: 7 / span 4;
+  }
+
+  @media (--desktop-s) {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
+  @media (--desktop-m) {
+    grid-column: 5 / span 2;
+    grid-row: 1;
+  }
+}
+
+.contact__country {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.contact__phone {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+
+  margin-top: var(--space-3xs);
+
+  @media (--tablet) {
+    text-decoration: none;
+  }
+}
+
+.contact__address {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+
+  margin-top: var(--space-xs);
+
+  color: var(--color-quick-silver);
+
+  @media (--desktop-m) {
+    margin-top: var(--space-m);
+  }
+}
+
+.slogan {
+  display: inline-flex;
+  flex-direction: column;
+
+  padding: var(--space-m);
+
+  background-color: var(--bg-color-night);
+  grid-column: 1 / span 2;
+
+  @media (--tablet) {
+    grid-column: 1 / span 6;
+    grid-row: 2 / span 2;
+
+    padding: var(--space-xl);
+  }
+
+  @media (--desktop-s) {
+    padding: var(--space-2xl);
+    grid-column: 5 / span 5;
+    grid-row: 1 / span 2;
+  }
+
+  @media (--desktop-m) {
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 2;
+  }
+}
+
+.slogan__title {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+
+  @media (--desktop-s) {
+    padding-right: 97px;
+  }
+
+  @media (--desktop-m) {
+    padding-right: var(--space-4xl);
+  }
+}
+
+.slogan__email {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+
+  display: inline-block;
+
+  margin-top: var(--space-m);
+
+  @media (--tablet) {
+    margin-top: var(--space-xl);
+  }
+}
+
+.slogan__email:hover {
+  color: var(--color-primary-hover);
+}
+
+.slogan__copyright {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+
+  margin-top: var(--space-m);
+
+  color: var(--color-quick-silver);
+
+  @media (--tablet) {
+    margin-top: var(--space-xl);
+  }
+}
+
+.links-privacy {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / span 2;
+
+  @media (--tablet) {
+    grid-column: 7 / span 6;
+    grid-row: 2;
+  }
+
+  @media (--desktop-s) {
+    grid-column: 10 / span 3;
+    grid-row: 1 / span 2;
+  }
+}
+
+.footer-links {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  row-gap: var(--space-xs);
+}
+
+.footer-link {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+
+  text-decoration: underline;
+}
+
+.privacy-policy {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+
+  margin-top: var(--space-2xl);
+
+  color: var(--color-quick-silver);
+
+  @media (--tablet) {
+    margin-top: var(--space-xl);
+  }
+
+  @media (--desktop-s) {
+    margin-top: var(--space-2xl);
+  }
+}
+
+.privacy-policy a {
+  text-decoration: none;
+
+  color: var(--color-sky-blue);
+
+  transition: 0.3s color;
+}
+
+.privacy-policy a:hover {
+  color: var(--color-sky-blue-hover);
+}

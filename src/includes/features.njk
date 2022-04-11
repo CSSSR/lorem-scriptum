@@ -1,0 +1,19 @@
+{% if features %}
+  <section class="features">
+    <h2 class="visually-hidden">{{ features.seoTitle }}</h2>
+
+    <ul class="features__list">
+    {% for feature in features.items %}
+      <li class="features__item">
+        <span class="features__title">
+          {{ feature.title | safe }}
+        </span>
+
+        <p class="features__text">
+          {{ feature.text | safe }}
+        </p>
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+{% endif %}

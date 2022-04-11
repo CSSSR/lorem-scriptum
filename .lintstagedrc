@@ -1,0 +1,3 @@
+{
+  "*.css": ["make lint-fix-css", "git add"]
+}

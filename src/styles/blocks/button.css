@@ -1,0 +1,31 @@
+.button {
+  font: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+
+  padding: var(--space-m);
+
+  cursor: pointer;
+  text-align: center;
+  text-decoration: underline;
+
+  color: var(--white);
+  border: none;
+  background-color: var(--color-sky-blue);
+  box-shadow: none;
+
+  transition: 0.3s background-color;
+}
+
+.button:hover {
+  background-color: var(--color-sky-blue-hover);
+}
+
+.button:disabled {
+  background-color: var(--color-sky-blue-disabled);
+}
+
+.button__size-s {
+  padding: var(--space-s);
+}

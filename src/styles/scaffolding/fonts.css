@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  font-weight: 100;
+  font-style: normal;
+  src: url('/fonts/RobotoSlab-Thin-6273a029.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/RobotoSlab-Light_normal-8317bec0.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/RobotoSlab-Regular_normal-97225c44.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/RobotoSlab-Bold-841abf01.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 100;
+  font-style: normal;
+  src: url('/fonts/Roboto-Thin_normal-2972f2df.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/Roboto-Light_normal-1cfe5b90.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/Roboto-Regular_normal-70e4d10e.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/Roboto-Bold_normal-85b57d07.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: normal;
+  src: url('/fonts/Roboto-Black_normal-5d2f5ac7.woff2') format('woff2');
+  font-display: swap;
+}

@@ -1,0 +1,135 @@
+.applicationForm {
+  margin-right: auto;
+  margin-bottom: var(--space-3xl);
+  margin-left: auto;
+  padding: var(--space-m);
+
+  background-color: var(--bg-color-night);
+
+  @media (--tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 720px;
+    margin-bottom: var(--space-4xl);
+    padding: var(--space-2xl);
+  }
+
+  @media (--desktop-s) {
+    max-width: 748px;
+    margin-bottom: var(--space-5xl);
+    padding: var(--space-3xl);
+  }
+
+  @media (--desktop-m) {
+    max-width: 792px;
+    margin-bottom: var(--space-5xl);
+  }
+}
+
+.applicationForm__contacts {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: var(--space-m);
+
+  @media (--tablet) {
+    margin-right: var(--space-xl);
+    margin-bottom: 0;
+  }
+}
+
+.applicationForm__headerText {
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: var(--space-m);
+
+  &::after {
+    width: 16px;
+    height: 16px;
+    margin-left: var(--space-3xs);
+
+    content: '';
+
+    background-image: url('../assets/hand.png');
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  @media (--tablet) {
+    font-size: 24px;
+    line-height: 40px;
+
+    &::after {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  @media (--desktop-m) {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+
+.applicationForm__avatar {
+  margin-bottom: var(--space-m);
+
+  @media (--tablet) {
+    width: 132px;
+    height: 96px;
+    margin-bottom: var(--space-xl);
+  }
+}
+
+.applicationForm__employeeName {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.applicationForm__employeeEmail {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.applicationForm__form {
+  display: grid;
+  flex-grow: 1;
+
+  padding-top: var(--space-m);
+
+  border-top: 1px solid var(--color-gray25);
+  row-gap: var(--space-m);
+
+  @media (--tablet) {
+    padding-top: 0;
+    padding-left: var(--space-xl);
+
+    border-top: none;
+    border-left: 1px solid var(--color-gray25);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, min-content);
+    column-gap: 16px;
+  }
+}
+
+.applicationForm__message,
+.applicationForm__submitButton {
+  @media (--tablet) {
+    grid-column: 1 / span 2;
+  }
+}
+
+.applicationForm__message {
+  height: 150px;
+
+  @media (--tablet) {
+    height: 170px;
+  }
+}

@@ -1,0 +1,33 @@
+.mainPage__title {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 32px;
+
+  margin-right: auto;
+  margin-bottom: var(--space-xl);
+  margin-left: auto;
+
+  text-align: center;
+
+  @media (--tablet) {
+    font-size: 20px;
+
+    max-width: 596px;
+    margin-bottom: var(--space-3xl);
+  }
+
+  @media (--desktop-s) {
+    font-size: 32px;
+    line-height: 48px;
+
+    max-width: 780px;
+  }
+
+  @media (--desktop-m) {
+    max-width: 800px;
+  }
+}
+
+.mainPage__title b {
+  font-weight: 400;
+}

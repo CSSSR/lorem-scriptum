@@ -1,0 +1,36 @@
+{% if applicationForm %}
+  <section class="applicationForm">
+    <h2 class="visually-hidden">{{ applicationForm.seoTitle }}</h2>
+
+    <div class="applicationForm__contacts">
+      <span class="applicationForm__headerText">
+        {{ applicationForm.headerText }}
+      </span>
+
+      <picture class="applicationForm__avatar">
+        <source srcset="{{ applicationForm.employee.avatar.source }}">
+        <img
+          srcset="{{ applicationForm.employee.avatar.fallback }}"
+          alt="{{ applicationForm.employee.name }} avatar"
+        />
+      </picture>
+
+      <span class="applicationForm__employeeName">
+        {{ applicationForm.employee.name }}
+      </span>
+
+      <a class="link link__type_text applicationForm__employeeEmail" href="mailto:{{ applicationForm.employee.email }}">
+        {{ applicationForm.employee.email }}
+      </a>
+    </div>
+
+    <form id="applicationForm" class="applicationForm__form">
+      <input class="input" name="email" placeholder="Email" type="email"/>
+      <input class="input" name="messengers" placeholder="Telegram, WA, Viber, etc" type="text"/>
+
+      <textarea class="input applicationForm__message" name="message" placeholder="Describe your project" name="w3review" rows="4" cols="50"></textarea>
+
+      <button class="button applicationForm__submitButton" type="submit">Send Message</button>
+    </form>
+  </section>
+{% endif %}

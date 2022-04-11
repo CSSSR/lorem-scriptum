@@ -1,0 +1,41 @@
+<section class="example-project">
+  <div class="container example-project__container">
+      <div class="diagrams">
+        <img class="diagrams__img" src="{{ exampleProject.img.fallback }}" srcset="{{ exampleProject.img.srcset }}" alt="{{ exampleProject.img.alt }}" loading="lazy" />
+
+        {% for diagram in exampleProject.diagrams %}
+          <div class="diagram diagram_{{ diagram.mod }}">
+            <h3 class="diagram__title">{{ diagram.title }}</h3>
+
+            <p class="diagram__value">{{ diagram.value }}</p>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="project-costs">
+        <h2 class="project-costs__title">
+          {{ exampleProject.projectCosts.title }}
+        </h2>
+
+        <div class="costs">
+          {% for cost in exampleProject.projectCosts.costs %}
+            <div class="cost">
+              <h3 class="cost__title">{{ cost.title }}</h3>
+
+              <p class="cost__value">{{ cost.value }}</p>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="costs-total">
+          <p>
+            <strong class="costs-total__title">{{ exampleProject.projectCosts.total.title }}</strong>
+          </p>
+
+          <p class="costs-total__value">
+            {{ exampleProject.projectCosts.total.value }}
+          </p>
+        <div>
+      </div>
+  </div>
+</section>

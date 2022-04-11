@@ -1,0 +1,58 @@
+{
+  "img": {
+    "srcset": "/assets/estimate-example.webp 1x, /assets/estimate-example.webp 2x",
+    "fallback": "/assets/estimate-example2x.png",
+    "alt": "Estimate example"
+  },
+
+  "diagrams": [
+    {
+      "mod": "digital",
+      "title": "Digital Product Design",
+      "value": "1 designer"
+    },
+    {
+      "mod": "cloud",
+      "title": "Cloud & DevOps",
+      "value": "1 engineer (part time)"
+    },
+    {
+      "mod": "web",
+      "title": "Web & Mobile Development",
+      "value": "3 engineers"
+    },
+    {
+      "mod": "qa",
+      "title": "QA",
+      "value": "1 engineer"
+    }
+  ],
+
+  "projectCosts": {
+    "title": "4 months example project costs",
+
+    "costs": [
+      {
+        "title": "1st month",
+        "value": "9,576 USD"
+      },
+      {
+        "title": "2nd month",
+        "value": "30,660 USD"
+      },
+      {
+        "title": "3rd month",
+        "value": "29,232 USD"
+      },
+      {
+        "title": "4th month",
+        "value": "30,274 USD"
+      }
+    ],
+
+    "total": {
+      "title": "99,742 USD",
+      "value": "Estimated total"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "label": "JavaScript",
+    "iconId": "js"
+  },
+  {
+    "label": "TypeScript",
+    "iconId": "ts"
+  },
+  {
+    "label": "Node.js",
+    "iconId": "node"
+  },
+  {
+    "label": "Kotlin",
+    "iconId": "kotlin"
+  },
+  {
+    "label": "Java",
+    "iconId": "java"
+  },
+  {
+    "label": "Python",
+    "iconId": "python"
+  },
+  {
+    "label": "Go",
+    "iconId": "go"
+  },
+  {
+    "label": "Swift",
+    "iconId": "swift"
+  },
+  {
+    "label": "React",
+    "iconId": "react"
+  },
+  {
+    "label": "Vue",
+    "iconId": "vue"
+  },
+  {
+    "label": "Svelte",
+    "iconId": "svelte"
+  },
+  {
+    "label": "Spring",
+    "iconId": "spring"
+  },
+  {
+    "label": "React Native",
+    "iconId": "react"
+  },
+  {
+    "label": "Ionic",
+    "iconId": "iconic"
+  },
+  {
+    "label": "PyTorch",
+    "iconId": "pytorch"
+  },
+  {
+    "label": "MongoDB",
+    "iconId": "mongo"
+  },
+  {
+    "label": "PostgreSQL",
+    "iconId": "postgres"
+  },
+  {
+    "label": "Docker",
+    "iconId": "docker"
+  },
+  {
+    "label": "Kubernetes",
+    "iconId": "k8s"
+  },
+  {
+    "label": "AWS",
+    "iconId": "aws"
+  },
+  {
+    "label": "Google Cloud",
+    "iconId": "googleCloud"
+  },
+  {
+    "label": "Figma",
+    "iconId": "figma"
+  }
+]

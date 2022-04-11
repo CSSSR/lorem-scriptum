@@ -1,0 +1,11 @@
+<ul class="techStack">
+  {% for item in techStack %}
+    <li class="techStack__item">
+      <svg class="techStack__icon" width="32" height="32" >
+        <use xlink:href="#{{ item.iconId}}" />
+      </svg>
+
+      {{ item.label }}
+    </li>
+  {% endfor %}
+</ul>

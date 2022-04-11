@@ -1,0 +1,42 @@
+{% if employeeContacts %}
+  <div class="employeeCards">
+    {% for contact in employeeContacts %}
+      <section class="employeeCard">
+        <h2 class="employeeCard__title">
+          {{ contact.title | safe }}
+        </h2>
+
+        <p class="employeeCard__subtitle">
+          {{ contact.subtitle | safe }}
+        </p>
+
+        <img
+          class="employeeCard__avatar"
+          srcset="{{ contact.avatar }}"
+          alt="{{ contact.name | safe }} avatar"
+          loading="lazy"
+        />
+
+        <span class="employeeCard__name">
+          {{ contact.name | safe }}
+        </span>
+
+        <span class="employeeCard__role">
+          {{ contact.role | safe }}
+        </span>
+
+        <ul class="employeeCard__goals">
+          {% for goal in contact.goals %}
+            <li class="employeeCard__goal">
+              {{ goal | safe }}
+            </li>
+          {% endfor %}
+        </ul>
+
+        <a class="button employeeCard__button" href="mailto:{{ contact.email}}">
+          Send Email
+        </a>
+      </section>
+    {% endfor %}
+  </div>
+{% endif %}

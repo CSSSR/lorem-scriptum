@@ -1,0 +1,19 @@
+{% if cookieBanner %}
+  <div id="cookieBanner" class="cookieBanner cookieBanner__isHidden">
+    <div class="cookieBanner__inner">
+      <span class="cookieBanner__title">
+        {{ cookieBanner.title }}
+      </span>
+
+      <div class="cookieBanner__wrapper">
+        <p class="cookieBanner__text">
+          {{ cookieBanner.text | safe }}
+        </p>
+
+        <button id="acceptCookiePolicy" class="button button__size-s cookieBanner__confirmButton" type="button">
+          {{ cookieBanner.confirmButtonLabel }}
+        </button>
+      </div>
+    </div>
+  </div>
+{% endif %}

@@ -1,0 +1,24 @@
+/* Preparatory styles */
+@import 'scaffolding/normalize.css';
+@import 'scaffolding/fonts.css';
+@import 'scaffolding/media-query.css';
+@import 'scaffolding/variables.css';
+@import 'scaffolding/base.css';
+
+/* Base blocks */
+@import 'blocks/input.css';
+@import 'blocks/button.css';
+@import 'blocks/link.css';
+
+/* Sections */
+@import 'blocks/header.css';
+@import 'blocks/mainPage.css';
+@import 'blocks/techStack.css';
+@import 'blocks/applicationForm.css';
+@import 'blocks/employeeContacts.css';
+@import 'blocks/reviews.css';
+@import 'blocks/features.css';
+@import 'blocks/ourServices.css';
+@import 'blocks/cookieBanner.css';
+@import 'blocks/exampleProject.css';
+@import 'blocks/footer.css';

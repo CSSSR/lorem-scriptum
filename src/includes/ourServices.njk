@@ -1,0 +1,27 @@
+<section class="our-services">
+  <h2 class="visually-hidden">
+    {{ ourServices.title }}
+  </h2>
+
+  <div class="container">
+    <div class="services-links">
+      {% for link in ourServices.links %}
+        <a class="link services-link" href="{{ link.href }}" rel="noopener nofollow" target="_blank">
+          <span class="link__title">{{ link.title }}</span> @ {{ link.label }}
+        </a>
+      {% endfor %}
+    </div>
+
+    <div class="services">
+      {% for service in ourServices.services%}
+        <div class="service service_{{service.mod }}">
+          <span class="service__title">
+            {{ service.title }}
+          </span>
+
+          <img class="service__img" alt="" loading="lazy" src="{{service.img}}" width="80" height="80" />
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,176 @@
+.employeeCards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: var(--space-xl);
+  row-gap: var(--space-xl);
+
+  @media (--tablet) {
+    align-items: stretch;
+    flex-flow: row wrap;
+
+    margin-bottom: var(--space-4xl);
+    column-gap: var(--space-xl);
+  }
+
+  @media (--desktop-m) {
+    margin-bottom: var(--space-5xl);
+  }
+}
+
+.employeeCard {
+  display: flex;
+  flex-direction: column;
+
+  width: 328px;
+  padding: var(--space-m);
+
+  background-color: var(--bg-color-night);
+
+  @media (--tablet) {
+    width: 348px;
+    padding: var(--space-xl);
+  }
+
+  @media (--desktop-s) {
+    width: 438px;
+    padding: var(--space-2xl);
+  }
+
+  @media (--desktop-m) {
+    width: 588px;
+    padding: var(--space-4xl);
+  }
+}
+
+.employeeCard__title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+
+  margin-bottom: var(--space-m);
+
+  @media (--desktop-m) {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+.employeeCard__subtitle {
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-top: 0;
+  margin-bottom: var(--space-m);
+
+  @media (--tablet) {
+    min-height: 72px;
+  }
+
+  @media (--desktop-m) {
+    font-size: 24px;
+    line-height: 40px;
+
+    margin-bottom: var(--space-xl);
+  }
+}
+
+.employeeCard__avatar {
+  width: 80px;
+  height: 80px;
+  margin-bottom: var(--space-s);
+
+  @media (--tablet) {
+    width: 96px;
+    height: 96px;
+  }
+
+  @media (--tablet) {
+    margin-bottom: var(--space-m);
+  }
+}
+
+.employeeCard__name {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+
+  @media (--tablet) {
+    font-size: var(--space-xl);
+
+    margin-bottom: var(--space-xs);
+  }
+
+  @media (--desktop-s) {
+    margin-bottom: var(--space-3xs);
+  }
+
+  @media (--desktop-m) {
+    font-size: var(--space-2xl);
+    line-height: 48px;
+  }
+}
+
+.employeeCard__role {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+
+  margin-bottom: var(--space-m);
+
+  @media (--tablet) {
+    font-size: 16px;
+  }
+}
+
+.employeeCard__goals {
+  font-family: Roboto, serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+
+  margin-bottom: var(--space-xl);
+
+  list-style: none;
+
+  color: var(--color-gray);
+
+  @media (--tablet) {
+    font-size: 16px;
+  }
+
+  @media (--desktop-s) {
+    margin-bottom: var(--space-2xl);
+  }
+}
+
+.employeeCard__goal {
+  position: relative;
+
+  padding-left: 14px;
+
+  &::before {
+    position: absolute;
+    left: 0;
+
+    content: '—';
+  }
+}
+
+.employeeCard__goal:not(:last-child) {
+  margin-bottom: var(--space-3xs);
+}
+
+.employeeCard__button {
+  @media (--tablet) {
+    margin-top: auto;
+  }
+
+  @media (--desktop-s) {
+    width: 293px;
+  }
+}

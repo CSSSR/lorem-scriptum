@@ -1,0 +1,47 @@
+{
+  "contacts": [
+    {
+      "mod": "estonia",
+      "country": "Estonia",
+      "phone": "+372 609 3435",
+      "address": "26 Majaka St., bld.1, office 14, Tallin, 11412, Estonia"
+    },
+
+    {
+      "mod": "usa",
+      "country": "USA",
+      "phone": "+1 424 535 6038",
+      "address": "1620 Johnson Way, Historic New Castle, DE, 19720, USA"
+    },
+
+    {
+      "mod": "singapore",
+      "country": "Singapore",
+      "phone": "+65  3159 4531",
+      "address": "68 Circular Road, #02-01, Singapore, 049422,   Rep. of Singapore"
+    }
+  ],
+
+  "slogan": {
+    "title": "Working globally from Estonia, Singapore and United States",
+    "email": "launch@loremscriptum.com",
+    "copyright": "Lorem Scriptum OÜ, Tallinn"
+  },
+
+  "links": [
+    {
+      "title": "Behance",
+      "href": "https://www.behance.net/csssrcom"
+    },
+    {
+      "title": "Clutch",
+      "href": "https://clutch.co/profile/css-services#summary"
+    },
+    {
+      "title": "Github",
+      "href": "https://github.com/CSSSR"
+    }
+  ],
+
+  "privacyPolicy": "By&nbsp;submitting any form on&nbsp;this website, you agree to&nbsp;your personal data being stored and used for the purposes stated in&nbsp;the <a href='https://github.com/CSSSR/loremscriptum/blob/ac92143665feaff4434691ed8d0528e469269b00/agreements/privacy-policy.md' rel='noopener nofollow' target='_blank'>Privacy Policy</a>. Please note that using the website constitutes acceptance of&nbsp;the <a href='https://github.com/CSSSR/loremscriptum/blob/ac92143665feaff4434691ed8d0528e469269b00/agreements/cookie-policy.md' rel='noopener nofollow' target='_blank'>Cookie policy</a>."
+}

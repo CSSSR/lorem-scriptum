@@ -1,0 +1,43 @@
+<footer class="footer">
+  <div class="container footer__container">
+    {% for contact in footer.contacts %}
+      <address class="contact contact_{{ contact.mod }}">
+        <span class="contact__country">{{ contact.country }}</span>
+
+        <a class="link link__type_text contact__phone" href="tel:{{ contact.phone }}">
+          {{ contact.phone }}
+        </a>
+
+        <span class="contact__address" >{{ contact.address }}</span>
+      </address>
+    {% endfor %}
+
+    <div class="slogan">
+      <div class="slogan__title">
+        {{ footer.slogan.title }}
+      </div>
+
+      <a class="link link__type_text slogan__email" href="mailto:{{ footer.slogan.email }}">
+        {{ footer.slogan.email }}
+      </a>
+
+      <p class="slogan__copyright">
+        © 2012 — <span id="copyright-year"></span>, {{ footer.slogan.copyright }}
+      </p>
+    </div>
+
+    <div class="links-privacy">
+      <div class="footer-links">
+        {% for link in footer.links %}
+          <a href="{{ link.href }}" class="link footer-link" rel="noopener nofollow" target="_blank">
+            {{ link.title }}
+          </a>
+        {% endfor %}
+      </div>
+
+      <div class="privacy-policy">
+        {{ footer.privacyPolicy | safe }}
+      </div>
+    </div>
+  </div>
+</footer>

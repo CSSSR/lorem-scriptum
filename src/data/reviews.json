@@ -1,0 +1,16 @@
+[
+  {
+    "author": "Esther Tan",
+    "avatar": {
+      "srcset": "/assets/esther-tan.webp 1x, /assets/esther-tan2x.webp 2x",
+      "fallback": "/assets/esther-tan2x.jpg"
+    },
+    "company": "Subnero",
+    "text": "Scriptum has good knowledge and experience. Although we&nbsp;were new to&nbsp;some of&nbsp;the technologies used for the application, they patiently provided guidance to&nbsp;us. We&nbsp;also liked that Scriptum was very flexible to&nbsp;work with.",
+    "link": {
+      "url": "https://clutch.co/profile/css-services#review-1761846",
+      "label": "Feedback and Reputation",
+      "service": "Clutch"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{% if reviews %}
+  <section class="reviews">
+    {% for item in reviews %}
+      <section class="review">
+        <a class="link review__link" href="{{ item.link.url}}">
+         <span class="link__title">{{ item.link.label }}</span> @ {{ item.link.service}}
+        </a>
+
+        <div class="review__card">
+          <img class="review__authorImg" src="{{ item.avatar.fallback}}" srcset="{{ item.avatar.srcset }}" alt="{{ item.author }}" loading="lazy" />
+
+          <p class="review__text">
+            <cite class="review__cite">
+              {{ item.text | safe }}
+            </cite>
+
+            <span class="review__author" rel="author">
+              {{ item.author }}
+            </span>
+          </p>
+
+          <span class="review__company">
+            {{ item.company }}
+          </span>
+        </div>
+      </section>
+    {% endfor %}
+  </section>
+{% endif %}

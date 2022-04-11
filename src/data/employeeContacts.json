@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Architecture and Technology Consulting",
+    "subtitle": "Just in&nbsp;case you are looking for advice, we&nbsp;have 10&nbsp;years of&nbsp;engineering experience.",
+    "avatar": "/assets/golovin.webp 1x, /assets/golovin2x.webp 2x",
+    "name": "Sergey Golovin",
+    "role": "Chief Technical Officer",
+    "goals": [
+      "Determine the technical features of&nbsp;your product",
+      "Select Technology Stack",
+      "Analyse technical products already available",
+      "Give tips to&nbsp;optimize the work of&nbsp;applications in&nbsp;the future"
+    ],
+    "email": "sergey.golovin@loremscriptum.com"
+  },
+  {
+    "title": "Building Remote Processes and Chaos Organizing",
+    "subtitle": "Our unique ability is&nbsp;to&nbsp;build transparent and predictable processes in&nbsp;remote engineering teams. We&nbsp;are open to&nbsp;share this skill and experience.",
+    "avatar": "/assets/sekirkin.webp 1x, /assets/sekirkin2x.webp 2x",
+    "name": "Andrey Sekirkin",
+    "role": "Chief Process Officer",
+    "goals": [
+      "Connect business and developers",
+      "Improve processes or&nbsp;create new ones",
+      "Select MVP launch strategy",
+      "Create a&nbsp;team for your project"
+    ],
+    "email": "andrey.sekirkin@loremscriptum.com"
+  }
+]

@@ -1,0 +1,67 @@
+{%
+  set fonts = [
+    {
+      "family": "Roboto Slab",
+      "rel": "preload",
+      "href": "fonts/RobotoSlab-Thin-6273a029.woff2"
+    },
+
+    {
+      "family": "Roboto Slab",
+      "rel": "preload",
+      "href": "fonts/RobotoSlab-Light_normal-8317bec0.woff2"
+    },
+
+    {
+      "family": "Roboto Slab",
+      "rel": "preload",
+      "href": "fonts/RobotoSlab-Regular_normal-97225c44.woff2"
+    },
+
+    {
+      "family": "Roboto Slab",
+      "rel": "preload",
+      "href": "fonts/RobotoSlab-Bold-841abf01.woff2"
+    },
+
+    {
+      "family": "Roboto",
+      "rel": "preload",
+      "href": "fonts/Roboto-Thin_normal-2972f2df.woff2"
+    },
+
+    {
+      "family": "Roboto",
+      "rel": "preload",
+      "href": "fonts/Roboto-Light_normal-1cfe5b90.woff2"
+    },
+
+    {
+      "family": "Roboto",
+      "rel": "preload",
+      "href": "fonts/Roboto-Regular_normal-70e4d10e.woff2"
+    },
+
+    {
+      "family": "Roboto",
+      "rel": "preload",
+      "href": "fonts/Roboto-Bold_normal-85b57d07.woff2"
+    },
+
+    {
+      "family": "Roboto",
+      "rel": "preload",
+      "href": "fonts/Roboto-Black_normal-5d2f5ac7.woff2"
+    }
+  ]
+%}
+
+{% for font in fonts %}
+  <link
+    rel={{font.rel}}
+    href={{font.href}}
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+{% endfor %}
