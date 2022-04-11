@@ -3,7 +3,7 @@
 
   position: relative;
 
-  margin-right: var(--space-m);
+  padding-right: var(--space-m);
 
   text-decoration: underline;
   text-decoration: none;
@@ -27,8 +27,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 12px;
-
-  transform: translateX(100%);
 }
 
 .link__title {
@@ -46,7 +44,7 @@
 }
 
 .link__type_text {
-  margin-right: 0;
+  padding-right: 0;
 
   text-decoration: underline;
 }
