@@ -23,6 +23,8 @@
 }
 
 .button:disabled {
+  cursor: not-allowed;
+
   background-color: var(--color-sky-blue-disabled);
 }
 
