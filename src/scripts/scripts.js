@@ -76,9 +76,9 @@ applicationForm.addEventListener('submit', async (evt) => {
     submitButton.setAttribute('disabled', 'disabled')
 
     await sendApplication({
-      email: email.value,
-      phone: phone.value,
-      message: message.value,
+      email: email.value.trim(),
+      phone: phone.value.trim(),
+      message: message.value.trim(),
     })
 
     formContainer.classList.add('applicationForm--state-success')
