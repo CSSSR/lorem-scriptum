@@ -6,7 +6,7 @@ releases:
     autodeploy-on: default
     chart: csssr/static-site@~1.1.0
     slack:
-      - C039BV2S5U0 # lorem_scriptum_site
+      - CKF42GD36 # csssr_builds
     static-params:
       projectID: lorem-scriptum
       tlsSecret: lorem-scriptum-tls
