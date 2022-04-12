@@ -21,6 +21,7 @@
   grid-template-columns: repeat(2, 1fr);
 
   @media (--tablet) {
+    align-items: start;
     grid-template-columns: repeat(12, 38px);
     row-gap: var(--space-xl);
   }
@@ -46,7 +47,7 @@
   flex-direction: column;
 }
 
-.contact_estonia {
+.contact_north-america {
   @media (--tablet) {
     grid-column: 1 / span 3;
   }
@@ -56,7 +57,7 @@
   }
 }
 
-.contact_usa {
+.contact_europe {
   @media (--tablet) {
     grid-column: 4 / span 3;
   }
@@ -66,7 +67,7 @@
   }
 }
 
-.contact_singapore {
+.contact_southeast-asia {
   @media (--tablet) {
     grid-column: 7 / span 4;
   }
@@ -107,6 +108,8 @@
 
   margin-top: var(--space-xs);
 
+  white-space: nowrap;
+
   color: var(--color-quick-silver);
 
   @media (--desktop-m) {
@@ -137,6 +140,7 @@
   }
 
   @media (--desktop-m) {
+    padding: var(--space-xl);
     grid-column: 7 / span 3;
     grid-row: 1 / span 2;
   }
@@ -146,14 +150,6 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
-
-  @media (--desktop-s) {
-    padding-right: 97px;
-  }
-
-  @media (--desktop-m) {
-    padding-right: var(--space-4xl);
-  }
 }
 
 .slogan__email {

@@ -8,13 +8,13 @@
           {{ contact.label }}
         </a>
 
-        <span class="contact__address" >{{ contact.address }}</span>
+        <span class="contact__address" >{{ contact.address | safe }}</span>
       </address>
     {% endfor %}
 
     <div class="slogan">
       <div class="slogan__title">
-        {{ footer.slogan.title }}
+        {{ footer.slogan.title | safe }}
       </div>
 
       <a class="link link__type_text slogan__email" href="mailto:{{ footer.slogan.email }}">
@@ -22,7 +22,7 @@
       </a>
 
       <p class="slogan__copyright">
-        © 2012 — <span id="copyright-year"></span>, {{ footer.slogan.copyright }}
+        © 2012 — <span id="copyright-year"></span>, {{ footer.slogan.copyright | safe}}
       </p>
     </div>
 
