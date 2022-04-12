@@ -1,7 +1,7 @@
 .mainPage__title {
-  font-size: 18px;
+  font-size: var(--font-size-l);
   font-weight: 100;
-  line-height: 32px;
+  line-height: var(--line-height-xl);
 
   margin-right: auto;
   margin-bottom: var(--space-xl);
@@ -10,15 +10,15 @@
   text-align: center;
 
   @media (--tablet) {
-    font-size: 20px;
+    font-size: var(--font-size-xl);
 
     max-width: 596px;
     margin-bottom: var(--space-3xl);
   }
 
   @media (--desktop-s) {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-3xl);
 
     max-width: 780px;
   }

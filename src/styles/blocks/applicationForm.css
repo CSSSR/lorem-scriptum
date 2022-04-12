@@ -45,9 +45,6 @@
 }
 
 .applicationForm__headerText {
-  font-size: 16px;
-  line-height: 24px;
-
   display: flex;
   align-items: center;
 
@@ -66,18 +63,13 @@
   }
 
   @media (--tablet) {
-    font-size: 24px;
-    line-height: 40px;
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-2xl);
 
     &::after {
       width: 24px;
       height: 24px;
     }
-  }
-
-  @media (--desktop-m) {
-    font-size: 24px;
-    line-height: 40px;
   }
 }
 
@@ -92,9 +84,7 @@
 }
 
 .applicationForm__employeeName {
-  font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
 
   margin-bottom: var(--space-xs);
 
@@ -104,8 +94,8 @@
 }
 
 .applicationForm__employeeEmail {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-xs);
 }
 
 .applicationForm__steps {
@@ -132,7 +122,7 @@
   @media (--tablet) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, min-content);
-    column-gap: 16px;
+    column-gap: var(--space-m);
   }
 }
 
@@ -158,8 +148,8 @@
 }
 
 .applicationForm__error {
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--space-s);
+  line-height: var(--font-size-m);
 
   margin-top: var(--space-3xs);
 
@@ -177,11 +167,6 @@
   height: 30px;
   margin-top: var(--space-xs);
   margin-bottom: var(--space-m);
-}
-
-.applicationForm__successMessage {
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .applicationForm--state-success .applicationForm__form {

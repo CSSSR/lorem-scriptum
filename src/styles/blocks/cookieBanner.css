@@ -1,6 +1,5 @@
 .cookieBanner {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: var(--font-size-s);
 
   position: fixed;
   z-index: 999;
