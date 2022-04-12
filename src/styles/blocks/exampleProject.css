@@ -310,9 +310,12 @@
   row-gap: var(--space-m);
 
   margin-top: var(--space-xl);
+  margin-left: var(--space-m);
 
   @media (--tablet) {
     grid-template-columns: 1fr;
+
+    margin-left: 0;
   }
 }
 
