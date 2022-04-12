@@ -1,34 +1,34 @@
 {
   "contacts": [
     {
-      "mod": "estonia",
-      "country": "Estonia",
-      "phone": "+3726093435",
-      "label": "+372 609 3435",
-      "address": "26 Majaka St., bld.1, office 14, Tallin, 11412, Estonia"
-    },
-
-    {
-      "mod": "usa",
-      "country": "USA",
+      "mod": "north-america",
+      "country": "North America",
       "phone": "+14245356038",
       "label": "+1 424 535 6038",
-      "address": "1620 Johnson Way, Historic New Castle, DE, 19720, USA"
+      "address": "1620 Johnson Way,<br/> Historic New Castle, DE,<br/> USA, 19720"
     },
 
     {
-      "mod": "singapore",
-      "country": "Singapore",
+      "mod": "europe",
+      "country": "Europe",
+      "phone": "+3726093435",
+      "label": "+372 609 3435",
+      "address": "Estonia, Harju maakond,<br/> Tallinn, Kesklinna linnaosa,<br/> Vesivärava tn 50-201,<br/> 10152"
+    },
+
+    {
+      "mod": "southeast-asia",
+      "country": "Southeast Asia",
       "phone": "+6531594531",
       "label": "+65 3159 4531",
-      "address": "68 Circular Road, #02-01, Singapore, 049422,   Rep. of Singapore"
+      "address": "68 Circular Road, #02-01,<br/> Singapore, 049422"
     }
   ],
 
   "slogan": {
-    "title": "Working globally from Estonia, Singapore and United States",
+    "title": "Working globally<br/> from Estonia, Singapore and&nbsp;United States",
     "email": "launch@loremscriptum.com",
-    "copyright": "Lorem Scriptum OÜ, Tallinn"
+    "copyright": "Lorem Scriptum OÜ,<br/> Tallinn"
   },
 
   "links": [
