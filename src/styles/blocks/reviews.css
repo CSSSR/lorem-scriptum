@@ -37,12 +37,9 @@
 }
 
 .review__link {
-  font-size: 16px;
-  line-height: 24px;
-
   @media (--tablet) {
-    font-size: 24px;
-    line-height: 40px;
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-2xl);
 
     position: absolute;
     top: 0;
@@ -111,10 +108,10 @@
 }
 
 .review__cite {
-  font-size: 20px;
+  font-size: var(--font-size-xl);
   font-weight: 100;
   font-style: normal;
-  line-height: 32px;
+  line-height: var(--line-height-xl);
 
   margin-bottom: var(--space-m);
 
@@ -123,29 +120,25 @@
   }
 
   @media (--desktop-m) {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-3xl);
 
     margin-bottom: var(--space-xl);
   }
 }
 
 .review__author {
-  font-size: 16px;
-  line-height: 24px;
-
   @media (--desktop-m) {
-    font-size: 24px;
-    line-height: 40px;
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-2xl);
   }
 }
 
 .review__company {
-  font-size: 14px;
+  font-size: var(--font-size-s);
   font-weight: 300;
-  line-height: 24px;
 
   @media (--desktop-m) {
-    font-size: 16px;
+    font-size: var(--font-size-m);
   }
 }

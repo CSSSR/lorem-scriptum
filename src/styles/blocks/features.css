@@ -47,8 +47,8 @@
 
 .features__title {
   font-family: 'Roboto Slab', serif;
-  font-size: 22px;
-  line-height: 32px;
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-xl);
 
   display: block;
 
@@ -56,17 +56,15 @@
   margin-bottom: var(--space-xs);
 
   @media (--desktop-m) {
-    font-size: 36px;
-    line-height: 47px;
+    font-size: var(--font-size-5xl);
+    line-height: var(--line-height-3xl);
 
     width: 100%;
   }
 }
 
 .features__text {
-  font-size: 16px;
   font-weight: 300;
-  line-height: 24px;
 
   margin: 0;
 }

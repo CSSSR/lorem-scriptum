@@ -46,22 +46,19 @@
 
 .employeeCard__title {
   font-family: 'Roboto Slab', serif;
-  font-size: 24px;
+  font-size: var(--font-size-3xl);
   font-weight: 400;
-  line-height: 32px;
+  line-height: var(--line-height-xl);
 
   margin-bottom: var(--space-m);
 
   @media (--desktop-m) {
-    font-size: 48px;
-    line-height: 64px;
+    font-size: var(--font-size-6xl);
+    line-height: var(--line-height-4xl);
   }
 }
 
 .employeeCard__subtitle {
-  font-size: 16px;
-  line-height: 24px;
-
   margin-top: 0;
   margin-bottom: var(--space-m);
 
@@ -70,8 +67,8 @@
   }
 
   @media (--desktop-m) {
-    font-size: 24px;
-    line-height: 40px;
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-2xl);
 
     margin-bottom: var(--space-xl);
   }
@@ -95,9 +92,9 @@
 
 .employeeCard__name {
   font-family: 'Roboto Slab', serif;
-  font-size: 18px;
+  font-size: var(--font-size-l);
   font-weight: 300;
-  line-height: 32px;
+  line-height: var(--line-height-xl);
 
   @media (--tablet) {
     font-size: var(--space-xl);
@@ -111,28 +108,26 @@
 
   @media (--desktop-m) {
     font-size: var(--space-2xl);
-    line-height: 48px;
+    line-height: var(--line-height-3xl);
   }
 }
 
 .employeeCard__role {
   font-family: Roboto, sans-serif;
-  font-size: 14px;
+  font-size: var(--font-size-s);
   font-weight: 300;
-  line-height: 24px;
 
   margin-bottom: var(--space-m);
 
   @media (--tablet) {
-    font-size: 16px;
+    font-size: var(--font-size-m);
   }
 }
 
 .employeeCard__goals {
   font-family: Roboto, serif;
-  font-size: 14px;
+  font-size: var(--font-size-s);
   font-weight: 300;
-  line-height: 24px;
 
   margin-bottom: var(--space-xl);
 
@@ -141,7 +136,7 @@
   color: var(--color-gray);
 
   @media (--tablet) {
-    font-size: 16px;
+    font-size: var(--font-size-m);
   }
 
   @media (--desktop-s) {
