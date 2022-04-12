@@ -7,7 +7,15 @@
         </a>
 
         <div class="review__card">
-          <img class="review__authorImg" src="{{ item.avatar.fallback}}" srcset="{{ item.avatar.srcset }}" alt="{{ item.author }}" loading="lazy" />
+          <picture>
+            <source srcset="{{ item.avatar.srcset }}" type="image/webp">
+            <img
+              class="review__authorImg"
+              src="{{ item.avatar.fallback }}"
+              alt="{{ item.author }} avatar"
+              loading="lazy"
+            />
+          </picture>
 
           <p class="review__text">
             <cite class="review__cite">
