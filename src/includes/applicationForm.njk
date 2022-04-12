@@ -7,10 +7,11 @@
         {{ applicationForm.headerText }}
       </span>
 
-      <picture class="applicationForm__avatar">
-        <source srcset="{{ applicationForm.employee.avatar.source }}">
+      <picture>
+        <source srcset="{{ applicationForm.employee.avatar.source }}" type="image/webp">
         <img
-          srcset="{{ applicationForm.employee.avatar.fallback }}"
+          class="applicationForm__avatar"
+          src="{{ applicationForm.employee.avatar.fallback }}"
           alt="{{ applicationForm.employee.name }} avatar"
         />
       </picture>
