@@ -80,6 +80,7 @@
 .employeeCard__avatar {
   width: 80px;
   height: 80px;
+  margin-top: auto;
   margin-bottom: var(--space-s);
 
   @media (--tablet) {
@@ -166,10 +167,6 @@
 }
 
 .employeeCard__button {
-  @media (--tablet) {
-    margin-top: auto;
-  }
-
   @media (--desktop-s) {
     width: 293px;
   }

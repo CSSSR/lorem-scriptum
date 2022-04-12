@@ -9,6 +9,7 @@
   padding: var(--space-m);
 
   background-color: var(--bg-color-night);
+
   @media (--tablet) {
     flex-direction: row;
 
@@ -21,7 +22,6 @@
   @media (--desktop-s) {
     max-width: 748px;
     min-height: 411px;
-    margin-bottom: var(--space-5xl);
     padding: var(--space-3xl);
   }
 
@@ -95,6 +95,12 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+
+  margin-bottom: var(--space-xs);
+
+  @media (--tablet) {
+    margin-bottom: 2px;
+  }
 }
 
 .applicationForm__employeeEmail {
