@@ -51,20 +51,19 @@
 }
 
 .page-header__company-name {
-  font-size: 14px;
+  font-size: var(--font-size-s);
   font-weight: 700;
-  line-height: 24px;
 
   @media (--tablet) {
-    font-size: 18px;
+    font-size: var(--font-size-l);
   }
 }
 
 .page-header__label {
   font-family: Roboto, sans-serif;
-  font-size: 10px;
+  font-size: var(--font-size-2xs);
   font-weight: 900;
-  line-height: 12px;
+  line-height: var(--line-height-2xs);
 
   margin-left: auto;
   padding: var(--space-2xs);
@@ -78,17 +77,17 @@
   background-color: var(--color-yellow);
 
   @media (--tablet) {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: var(--font-size-s);
+    line-height: var(--line-height-xs);
 
     padding: var(--space-xs);
   }
 }
 
 .page-header__title {
-  font-size: 32px;
+  font-size: var(--font-size-4xl);
   font-weight: 300;
-  line-height: 48px;
+  line-height: var(--line-height-3xl);
 
   max-width: 268px;
   margin-right: auto;
@@ -97,15 +96,15 @@
   text-align: center;
 
   @media (--tablet) {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-3xl);
 
     max-width: 350px;
   }
 
   @media (--desktop-s) {
-    font-size: 64px;
-    line-height: 80px;
+    font-size: var(--font-size-7xl);
+    line-height: var(--line-height-5xl);
 
     max-width: 700px;
   }

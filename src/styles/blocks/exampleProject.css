@@ -140,20 +140,17 @@
 }
 
 .diagram__title {
-  font-size: 18px;
+  font-size: var(--font-size-l);
   font-weight: 900;
-  line-height: 24px;
 
   @media (--desktop-m) {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-xl);
   }
 }
 
 .diagram__value {
-  font-size: 16px;
   font-weight: 300;
-  line-height: 24px;
 }
 
 .diagram::after {
@@ -315,9 +312,9 @@
 
 .project-costs__title {
   font-family: 'Roboto Slab', sans-serif;
-  font-size: 24px;
+  font-size: var(--font-size-3xl);
   font-weight: 400;
-  line-height: 32px;
+  line-height: var(--line-height-xl);
 
   @media (--desktop-s) {
     padding-right: var(--space-2xl);
@@ -345,15 +342,11 @@
 }
 
 .cost__title {
-  font-size: 16px;
   font-weight: 900;
-  line-height: 24px;
 }
 
 .cost__value {
-  font-size: 16px;
   font-weight: 300;
-  line-height: 24px;
 
   margin-top: var(--space-3xs);
 }
@@ -363,13 +356,11 @@
 }
 
 .costs-total__title {
-  font-size: 24px;
+  font-size: var(--font-size-3xl);
   font-weight: 900;
-  line-height: 32px;
+  line-height: var(--line-height-xl);
 }
 
 .costs-total__value {
-  font-size: 16px;
   font-weight: 300;
-  line-height: 24px;
 }
