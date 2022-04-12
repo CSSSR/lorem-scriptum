@@ -3,16 +3,17 @@
   margin-bottom: var(--space-3xl);
 
   @media (--tablet) {
-    margin-top: 78px;
+    margin-top: var(--space-3xl);
     margin-bottom: var(--space-4xl);
   }
 
   @media (--desktop-s) {
-    margin-top: 94px;
+    margin-top: var(--space-4xl);
   }
 
   @media (--desktop-m) {
-    margin-top: 122px;
+    margin-top: 90px;
+    margin-bottom: 96px;
   }
 }
 
@@ -72,7 +73,7 @@
 
   display: flex;
 
-  width: 75%;
+  width: 56%;
   height: 100%;
   margin: 0 auto;
 
@@ -84,18 +85,24 @@
     transparent 0
   );
   background-position: 50% 50%;
-  background-size: 33.33% 100%;
+  background-size: 33.36% 100%;
 
-  transform: translateX(-34%);
+  transform: translateX(-57%);
 
   @media (--tablet) {
-    width: 62%;
+    width: 68%;
 
-    transform: translateX(-45%);
+    transform: translateX(-41%);
   }
 
   @media (--desktop-s) {
     transform: translateX(-46%);
+  }
+
+  @media (--desktop-m) {
+    width: 61%;
+
+    transform: translateX(-49%);
   }
 }
 
@@ -113,7 +120,7 @@
     width: 84px;
     height: 84px;
 
-    transform: translateY(-65px) translateX(-21px);
+    transform: translateY(-74px) translateX(-27px);
   }
 
   @media (--desktop-s) {
@@ -121,6 +128,10 @@
     height: 147px;
 
     transform: translateY(-61px) translateX(7px);
+  }
+
+  @media (--desktop-m) {
+    transform: translateY(-61px) translateX(15px);
   }
 }
 
@@ -163,7 +174,7 @@
 }
 
 .diagram_digital::after {
-  width: 51%;
+  width: 36.6%;
 
   background: linear-gradient(62.8deg, #e62cf6 24.16%, #ffd576 69.7%);
 
@@ -183,7 +194,7 @@
 .diagram_cloud {
   grid-column: 1 / span 4;
 
-  padding-left: 36px;
+  padding-left: 30px;
   grid-row: 2;
 
   @media (--tablet) {
@@ -200,7 +211,7 @@
 }
 
 .diagram_cloud::after {
-  width: 43.5%;
+  width: 40.5%;
 
   background: linear-gradient(110.94deg, #87dcb7 37.25%, #2c78f6 73.39%);
 
@@ -221,6 +232,8 @@
   grid-column: 2 / span 3;
   grid-row: 3;
 
+  transform: translateX(-22px);
+
   @media (--tablet) {
     transform: translateX(-14px);
   }
@@ -235,6 +248,7 @@
 }
 
 .diagram_web::after {
+  width: 73%;
   height: 48px;
 
   background: linear-gradient(62.8deg, #7c15ff 24.16%, #769cff 102.94%);
@@ -256,7 +270,7 @@
   grid-column: 2 / span 3;
   grid-row: 4;
 
-  padding-left: 38px;
+  padding-left: 8px;
 
   @media (--tablet) {
     padding-left: 47px;
@@ -264,7 +278,13 @@
 }
 
 .diagram_qa::after {
+  width: 76%;
+
   background: linear-gradient(62.8deg, #ff7979 24.16%, #89ff76 102.94%);
+
+  @media (--tablet) {
+    width: 100%;
+  }
 
   @media (--desktop-s) {
     width: 92%;
