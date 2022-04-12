@@ -13,15 +13,17 @@
     </div>
 
     <div class="services">
-      {% for service in ourServices.services%}
-        <div class="service service_{{service.mod }}">
-          <span class="service__title">
-            {{ service.title }}
-          </span>
+      <div class="services__inner">
+        {% for service in ourServices.services%}
+          <div class="service service_{{service.mod }}">
+            <span class="service__title">
+              {{ service.title }}
+            </span>
 
-          <img class="service__img" alt="" loading="lazy" src="{{service.img}}" width="80" height="80" />
-        </div>
-      {% endfor %}
+            <img class="service__img" alt="" loading="lazy" src="{{service.img}}" width="80" height="80" />
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>

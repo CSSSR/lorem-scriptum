@@ -4,7 +4,7 @@
   "employee": {
     "avatar": {
       "source": "/assets/Hellen-Perezhogina.webp 1x, /assets/Hellen-Perezhogina2x.webp 2x",
-      "fallback": "/assets/Hellen-Perezhogina.png 1x, /assets/Hellen-Perezhogina.png 2x"
+      "fallback": "/assets/Hellen-Perezhogina2x.png"
     },
     "name": "Hellen Perezhogina",
     "email": "launch@loremscriptum.com"

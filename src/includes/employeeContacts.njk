@@ -10,12 +10,15 @@
           {{ contact.subtitle | safe }}
         </p>
 
-        <img
-          class="employeeCard__avatar"
-          srcset="{{ contact.avatar }}"
-          alt="{{ contact.name | safe }} avatar"
-          loading="lazy"
-        />
+        <picture>
+          <source srcset="{{ contact.avatar.source }}" type="image/webp">
+          <img
+            class="employeeCard__avatar"
+            src="{{ contact.avatar.fallback }}"
+            alt="{{ contact.name | safe }} avatar"
+            loading="lazy"
+          />
+        </picture>
 
         <span class="employeeCard__name">
           {{ contact.name | safe }}
