@@ -1,4 +1,4 @@
-const sendApplication = async ({ email, phone, message }) => {
+const sendApplication = async (payload) => {
   await fetch('https://master.com.csssr.cloud/api/submit-form', {
     method: 'post',
     headers: {
@@ -6,9 +6,9 @@ const sendApplication = async ({ email, phone, message }) => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      email,
-      phone,
-      message,
+      email: payload.email,
+      phone: payload.phone,
+      message: payload.message,
       name: 'Первичный запрос с Lorem Scriptum',
       pageName: 'contactUs',
       language: 'en',
