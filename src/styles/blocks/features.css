@@ -54,6 +54,13 @@
 
   width: 190px;
   margin-bottom: var(--space-xs);
+
+  @media (--desktop-m) {
+    font-size: 36px;
+    line-height: 47px;
+
+    width: 100%;
+  }
 }
 
 .features__text {

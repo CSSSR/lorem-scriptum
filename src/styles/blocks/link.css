@@ -18,15 +18,24 @@
   top: 0;
   right: 0;
 
-  width: var(--space-m);
-  height: var(--space-m);
+  width: 14px;
+  height: 14px;
 
   content: '';
 
   background-image: url('/assets/link-before.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 12px;
+  background-size: cover;
+}
+
+.link--labelSize-small {
+  padding-right: var(--space-s);
+}
+
+.link--labelSize-small::before {
+  width: 11px;
+  height: 11px;
 }
 
 .link__title {

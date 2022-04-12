@@ -3,21 +3,24 @@
     {
       "mod": "estonia",
       "country": "Estonia",
-      "phone": "+372 609 3435",
+      "phone": "+3726093435",
+      "label": "+372 609 3435",
       "address": "26 Majaka St., bld.1, office 14, Tallin, 11412, Estonia"
     },
 
     {
       "mod": "usa",
       "country": "USA",
-      "phone": "+1 424 535 6038",
+      "phone": "+14245356038",
+      "label": "+1 424 535 6038",
       "address": "1620 Johnson Way, Historic New Castle, DE, 19720, USA"
     },
 
     {
       "mod": "singapore",
       "country": "Singapore",
-      "phone": "+65  3159 4531",
+      "phone": "+6531594531",
+      "label": "+65 3159 4531",
       "address": "68 Circular Road, #02-01, Singapore, 049422,   Rep. of Singapore"
     }
   ],
