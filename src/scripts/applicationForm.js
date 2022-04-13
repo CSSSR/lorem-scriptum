@@ -1,5 +1,5 @@
 const sendApplication = async (payload) => {
-  await fetch('https://master.com.csssr.cloud/api/submit-form', {
+  await fetch(`${process.env.API_AMO_URL}/api/submit-form`, {
     method: 'post',
     headers: {
       Accept: 'application/json',
