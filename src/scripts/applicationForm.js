@@ -90,4 +90,3 @@ applicationForm.addEventListener('submit', async (evt) => {
     submitButton.removeAttribute('disabled')
   }
 })
-
