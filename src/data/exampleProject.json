@@ -1,6 +1,6 @@
 {
   "img": {
-    "srcset": "/assets/estimate-example.webp 1x, /assets/estimate-example.webp 2x",
+    "source": "/assets/estimate-example.webp 1x, /assets/estimate-example.webp 2x",
     "fallback": "/assets/estimate-example2x.png",
     "alt": "Estimate example"
   },

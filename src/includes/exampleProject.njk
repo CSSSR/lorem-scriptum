@@ -1,8 +1,16 @@
 <section class="example-project">
   <div class="container example-project__container">
       <div class="diagrams">
-        <img class="diagrams__img" src="{{ exampleProject.img.fallback }}" srcset="{{ exampleProject.img.srcset }}" alt="{{ exampleProject.img.alt }}" loading="lazy" />
+        <picture>
+          <source srcset="{{ exampleProject.img.source }}" type="image/webp">
 
+          <img
+            class="diagrams__img"
+            src="{{ exampleProject.img.fallback }}"
+            alt="{{ exampleProject.img.alt }}"
+            loading="lazy"
+          />
+        </picture>
         {% for diagram in exampleProject.diagrams %}
           <div class="diagram diagram_{{ diagram.mod }}">
             <h3 class="diagram__title">{{ diagram.title }}</h3>
