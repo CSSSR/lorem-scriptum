@@ -11,12 +11,11 @@
     flex-flow: row wrap;
 
     margin-bottom: var(--space-4xl);
-    column-gap: var(--space-xl);
+    column-gap: 0;
   }
 
   @media (--desktop-m) {
     margin-bottom: var(--space-5xl);
-    column-gap: 0;
   }
 }
 
@@ -46,7 +45,7 @@
 }
 
 .employeeCard + .employeeCard {
-  @media (--desktop-m) {
+  @media (--tablet) {
     margin-left: var(--space-xl);
   }
 }
