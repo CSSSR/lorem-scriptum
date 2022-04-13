@@ -3,8 +3,8 @@
     "title": "Architecture and Technology Consulting",
     "subtitle": "Just in&nbsp;case you are looking for advice, we&nbsp;have 10&nbsp;years of&nbsp;engineering experience.",
     "avatar": {
-      "source": "/assets/employeeContacts/golovin.webp 1x, /assets/employeeContacts/golovin2x.webp 2x",
-      "fallback": "/assets/employeeContacts/golovin2x.png"
+      "source": "/assets/golovin.webp 1x, /assets/golovin2x.webp 2x",
+      "fallback": "/assets/golovin2x.png"
     },
     "name": "Sergey Golovin",
     "role": "Chief Technical Officer",
@@ -20,8 +20,8 @@
     "title": "Building Remote Processes and Chaos Organizing",
     "subtitle": "Our unique ability is&nbsp;to&nbsp;build transparent and predictable processes in&nbsp;remote engineering teams. We&nbsp;are open to&nbsp;share this skill and experience.",
     "avatar": {
-      "source": "/assets/employeeContacts/sekirkin.webp 1x, /assets/employeeContacts/sekirkin2x.webp 2x",
-      "fallback": "/assets/employeeContacts/sekirkin2x.png"
+      "source": "/assets/sekirkin.webp 1x, /assets/sekirkin2x.webp 2x",
+      "fallback": "/assets/sekirkin2x.png"
     },
     "name": "Andrey Sekirkin",
     "role": "Chief Process Officer",
