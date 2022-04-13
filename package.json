@@ -18,7 +18,7 @@
     "lint:style": "stylelint \"src/styles/**/*.css\"",
     "fix:js": "yarn lint:js --fix",
     "fix:style": "yarn lint:style --fix",
-    "format": "prettier --write **/*.{js,css} !dist",
+    "format": "prettier --write src/**/*.{js,css}",
     "optimize:webp": "npx @squoosh/cli --webp '{'quality':80}' src/assets/*.webp -d src/assets",
     "optimize:png": "npx @squoosh/cli --oxipng '{'level':2,'interlace':false}' src/assets/*.png -d src/assets",
     "optimize:jpg": "npx @squoosh/cli --mozjpeg '{'quality':80,'progressive':true}' src/assets/*.jpg -d src/assets",
