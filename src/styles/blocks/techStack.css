@@ -33,6 +33,8 @@
   align-items: center;
 
   @media (--tablet) {
+    font-size: var(--space-m);
+
     margin-right: var(--space-3xs);
   }
 
