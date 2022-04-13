@@ -83,13 +83,16 @@
 .employeeCard__avatar {
   width: 80px;
   height: 80px;
-  margin-top: auto;
-  margin-bottom: var(--space-s);
 
   @media (--tablet) {
     width: 96px;
     height: 96px;
   }
+}
+
+.employeeCard__picture {
+  margin-top: auto;
+  margin-bottom: var(--space-s);
 
   @media (--tablet) {
     margin-bottom: var(--space-m);
