@@ -1,5 +1,5 @@
 const sendApplication = async (payload) => {
-  await fetch(`${process.env.API_AMO_URL}/api/submit-form`, {
+  await fetch(`${process.env.AMO_API_URL}/api/submit-form`, {
     method: 'post',
     headers: {
       Accept: 'application/json',
