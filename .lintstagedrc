@@ -1,3 +1,4 @@
 {
-  "*.css": ["make lint-fix-css", "git add"]
+  "*.css": ["yarn lint:style"],
+  "*.js": ["yarn lint:js"]
 }
