@@ -2,17 +2,20 @@
   "title": "Our Services",
 
   "links": [
-    { "title": "Feedback and Reputation",
+    {
+      "title": "Feedback and Reputation",
       "label": "Clutch",
       "href": "https://clutch.co/profile/css-services#summary"
     },
 
-    { "title": "Cases",
+    {
+      "title": "Cases",
       "label": "Behance",
       "href": "https://www.behance.net/csssrcom"
     },
 
-    { "title": "Open Source",
+    {
+      "title": "Open Source",
       "label": "GitHub",
       "href": "https://github.com/CSSSR"
     }
@@ -20,32 +23,32 @@
 
   "services": [
     {
-      "title": "Web & Mobile Development",
-      "img": "/assets/services/cat-code.svg",
+      "title": "Web &nbsp;Mobile Development",
+      "img": "/assets/cat-code.svg",
       "mod": "develop"
     },
 
     {
       "title": "Cloud & DevOps",
-      "img": "/assets/services/cloud-dev-ops.svg",
+      "img": "/assets/cloud-dev-ops.svg",
       "mod": "cloud"
     },
 
     {
       "title": "Digital Product Design",
-      "img": "/assets/services/quality-field.svg",
+      "img": "/assets/quality-field.svg",
       "mod": "digital"
     },
 
     {
       "title": "Management, Consulting & QA",
-      "img": "/assets/services/project-manager.svg",
+      "img": "/assets/project-manager.svg",
       "mod": "management"
     },
 
     {
       "title": "Machine Learning",
-      "img": "/assets/services/machine-learning.svg",
+      "img": "/assets/machine-learning.svg",
       "mod": "machine-learning"
     }
   ]
