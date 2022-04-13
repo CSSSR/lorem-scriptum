@@ -198,11 +198,11 @@
   }
 
   @media (--desktop-s) {
-    width: 42%;
+    width: 42.2%;
   }
 
   @media (--desktop-m) {
-    width: 40%;
+    width: 40.5%;
   }
 }
 
@@ -231,7 +231,7 @@
   background: linear-gradient(110.94deg, #87dcb7 37.25%, #2c78f6 73.39%);
 
   @media (--tablet) {
-    width: 50%;
+    width: 51%;
   }
 
   @media (--desktop-s) {
