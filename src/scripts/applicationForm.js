@@ -91,24 +91,3 @@ applicationForm.addEventListener('submit', async (evt) => {
   }
 })
 
-const COOKIE_ACCEPTED_KEY = 'COOKIE_ACCEPTED'
-
-const acceptCookieButton = document.getElementById('acceptCookiePolicy')
-const cookieBanner = document.getElementById('cookieBanner')
-const copyrightYear = document.getElementById('copyright-year')
-
-acceptCookieButton.addEventListener('click', () => {
-  localStorage.setItem(COOKIE_ACCEPTED_KEY, true)
-
-  cookieBanner.classList.add('cookieBanner__isHidden')
-})
-
-if (!localStorage.getItem(COOKIE_ACCEPTED_KEY)) {
-  cookieBanner.classList.remove('cookieBanner__isHidden')
-}
-
-if (copyrightYear) {
-  const fullYear = new Date().getFullYear()
-
-  copyrightYear.append(fullYear)
-}
