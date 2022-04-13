@@ -33,7 +33,7 @@ const getErrorMessage = (field) => {
   }
 
   if (typeMismatch) {
-    message = 'Invalid e-mail address'
+    message = 'Invalid email address'
   }
 
   return message
