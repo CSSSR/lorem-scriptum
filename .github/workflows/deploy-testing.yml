@@ -40,7 +40,7 @@ jobs:
 
       - name: Build testing
         working-directory: lorem-scriptum
-        run: make build
+        run: yarn build
 
       - uses: ./actions/upload-static/v1beta1
         with:

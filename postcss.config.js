@@ -11,7 +11,5 @@ module.exports = {
     }),
     require('autoprefixer'),
     require('postcss-sort-media-queries'),
-    require('postcss-reporter')({ clearReportedMessages: true }),
-    require('postcss-csso')
   ],
 }
