@@ -67,6 +67,17 @@ messageField.addEventListener('input', ({ target }) => resetErrorState(target))
 emailField.addEventListener('invalid', handleErrorState)
 messageField.addEventListener('invalid', handleErrorState)
 
+const validate = (field) => {
+  if (field.value.replace(/\s/g, '').length === 0) {
+    field.value = ''
+    field.checkValidity()
+
+    return false
+  }
+
+  return true
+}
+
 applicationForm.addEventListener('submit', async (evt) => {
   try {
     evt.preventDefault()
@@ -74,6 +85,8 @@ applicationForm.addEventListener('submit', async (evt) => {
     const form = evt.target
 
     const { email, phone, message } = form.elements
+
+    if (!validate(message)) return
 
     submitButton.setAttribute('disabled', 'disabled')
 
