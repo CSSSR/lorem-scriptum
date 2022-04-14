@@ -43,13 +43,15 @@
   --color-primary-hover: rgb(255 255 255 / 80%);
   --color-black: #000;
   --color-error: #f45b53;
-  --color-gray: #9b9b9b;
+  --color-gray: #ababab;
   --color-gray25: #404040;
-  --color-sky-blue: #00a3ff;
+  --color-sky-blue: #4d90ff;
   --color-sky-blue-hover: rgb(0 163 255 / 80%);
   --color-sky-blue-disabled: rgb(0 163 255 / 30%);
+  --color-brandeis-blue: #0061ff;
+  --color-brandeis-blue-hover: rgb(0 97 255 / 80%);
+  --color-brandeis-blue-disabled: rgb(0 97 255 / 30%);
   --color-yellow: #ffe052;
-  --color-quick-silver: #a7a7a7;
   --color-black-olive: #404040;
   --bg-color-dark: #282828;
   --bg-color-night: #343434;
