@@ -127,10 +127,18 @@
 }
 
 .applicationForm__field_message,
-.applicationForm__submitButton {
+.applicationForm__submitButton-wrap {
   @media (--tablet) {
     grid-column: 1 / span 2;
   }
+}
+
+.applicationForm__submitButton {
+  width: 100%;
+}
+
+.applicationForm__submitButton-wrap {
+  position: relative;
 }
 
 .applicationForm__email,
