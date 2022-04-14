@@ -17,7 +17,7 @@
         {% for service in ourServices.services%}
           <div class="service service_{{service.mod }}">
             <span class="service__title">
-              {{ service.title }}
+              {{ service.title | safe }}
             </span>
 
             <img class="service__img" alt="" loading="lazy" src="{{service.img}}" width="80" height="80" />
