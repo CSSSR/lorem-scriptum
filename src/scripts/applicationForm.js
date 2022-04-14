@@ -1,5 +1,5 @@
 const sendApplication = async (payload) => {
-  await fetch(`${process.env.AMO_API_URL}/api/submit-form`, {
+  return await fetch(`${process.env.AMO_API_URL}/api/submit-form`, {
     method: 'post',
     headers: {
       Accept: 'application/json',
@@ -23,6 +23,9 @@ const submitButton = document.querySelector(
 )
 const emailField = document.getElementById('applicationFormEmail')
 const messageField = document.getElementById('applicationFormMessage')
+const errorSubmit = document.getElementById('errorSubmit')
+
+const errorSubmitMessage = "Couldn't send. Please contact us by email or phone"
 
 const getErrorMessage = (field) => {
   let message = null
@@ -90,12 +93,19 @@ applicationForm.addEventListener('submit', async (evt) => {
 
     submitButton.setAttribute('disabled', 'disabled')
 
-    await sendApplication({
+    const response = await sendApplication({
       email: email.value.trim(),
       phone: phone.value.trim(),
       message: message.value.trim(),
     })
 
+    if (response?.status !== 201) {
+      errorSubmit.innerText = errorSubmitMessage
+
+      return
+    }
+
+    errorSubmit.innerText = ''
     formContainer.classList.add('applicationForm--state-success')
   } catch (err) {
     console.error(err)
