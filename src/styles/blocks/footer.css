@@ -106,7 +106,7 @@
 
   white-space: nowrap;
 
-  color: var(--color-quick-silver);
+  color: var(--color-gray);
 
   @media (--desktop-m) {
     margin-top: var(--space-m);
@@ -177,7 +177,7 @@
 
   margin-top: var(--space-m);
 
-  color: var(--color-quick-silver);
+  color: var(--color-gray);
 
   @media (--tablet) {
     margin-top: var(--space-xl);
@@ -221,7 +221,7 @@
 
   margin-top: var(--space-2xl);
 
-  color: var(--color-quick-silver);
+  color: var(--color-gray);
 
   @media (--tablet) {
     margin-top: var(--space-xl);

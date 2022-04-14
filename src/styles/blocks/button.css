@@ -10,20 +10,20 @@
 
   color: var(--white);
   border: none;
-  background-color: var(--color-sky-blue);
+  background-color: var(--color-brandeis-blue);
   box-shadow: none;
 
   transition: 0.3s background-color;
 }
 
 .button:hover {
-  background-color: var(--color-sky-blue-hover);
+  background-color: var(--color-brandeis-blue-hover);
 }
 
 .button:disabled {
   cursor: not-allowed;
 
-  background-color: var(--color-sky-blue-disabled);
+  background-color: var(--color-brandeis-blue-disabled);
 }
 
 .button__size-s {
