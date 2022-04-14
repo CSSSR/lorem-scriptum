@@ -1,7 +1,11 @@
 {% if reviews %}
   <section class="reviews">
+    <h2 class="visually-hidden">Reviews</h2>
+
     {% for item in reviews %}
       <section class="review">
+        <h3 class="visually-hidden">Feedback from {{ item.author }}</h3>
+
         <a class="link review__link" href="{{ item.link.url}}" rel='noopener nofollow' target='_blank'>
          <span class="link__title">{{ item.link.label }}</span> @&nbsp;{{ item.link.service}}
         </a>
