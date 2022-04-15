@@ -298,15 +298,15 @@
   background: linear-gradient(62.8deg, #ff7979 24.16%, #89ff76 102.94%);
 
   @media (--tablet) {
-    width: 100%;
+    width: 85%;
   }
 
   @media (--desktop-s) {
-    width: 92%;
+    width: 77%;
   }
 
   @media (--desktop-m) {
-    width: 87%;
+    width: 72%;
   }
 }
 
