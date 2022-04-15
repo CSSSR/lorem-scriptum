@@ -1,0 +1,58 @@
+.demo {
+  min-height: 100vh;
+  padding: 64px 0;
+
+  box-shadow: 0 0 0 1px green;
+}
+
+.tabs {
+  position: relative;
+
+  margin-top: 32px;
+}
+
+.tab {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: grid;
+  column-gap: var(--space-xl);
+
+  opacity: 0;
+
+  grid-template-columns: repeat(12, 78px);
+}
+
+.tab.active {
+  opacity: 1;
+}
+
+.charts {
+  display: grid;
+  row-gap: 32px;
+
+  grid-column: 1 / span 8;
+
+  box-shadow: 0 0 0 1px red;
+}
+
+.chart {
+  height: 16px;
+
+  border-radius: 8px;
+}
+
+.high {
+  height: 48px;
+}
+
+.info {
+  text-align: center;
+
+  @media (--desktop-m) {
+    grid-column: 9 / span 3;
+
+    background-color: green;
+  }
+}

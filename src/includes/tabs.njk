@@ -1,0 +1,32 @@
+<div class="demo">
+  <div class="container demo__container">
+    <div class="buttons">
+        {% for button in demo.tabs %}
+          <button data-tab-id={{button.id}} type="button">{{button.id}}</button>
+        {% endfor %}
+    </div>
+
+    <div class="tabs">
+      {% for tab in demo.tabs %}
+        <div class="tab {{ tab.mod }}" id="{{ tab.id }}">
+          <div class="charts" style="grid-template-columns: repeat({{ tab.duration * 2 }}, 1fr);">
+            {% for chart in tab.charts %}
+              <div
+                class="chart {{ chart.mod }}"
+                style="
+                  grid-column: {{ chart.column.start }} / span {{ chart.column.end }};
+                  background: {{ chart.background }};
+                "
+              >
+              </div>
+            {% endfor %}
+          </div>
+
+          <div class="info">
+            INFO
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

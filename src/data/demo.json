@@ -1,0 +1,157 @@
+{
+  "tabs": [
+    {
+      "id": "4-month",
+      "duration": "4",
+      "mod": "active",
+      "charts": [
+        {
+          "title": "Digital Product Design",
+          "description": "1 designer",
+          "column": {
+            "start": "1",
+            "end": "4"
+          },
+          "background": "linear-gradient(62.8deg, #E62CF6 24.16%, #FFD576 69.7%)"
+        },
+
+        {
+          "title": "Cloud & Devops",
+          "description": "1 engineer (part time)",
+          "column": {
+            "start": "2",
+            "end": "3"
+          },
+          "background": "linear-gradient(110.94deg, #87DCB7 37.25%, #2C78F6 73.39%)"
+        },
+
+        {
+          "title": "Web & Mobile Development",
+          "description": "3 engineers",
+          "mod": "high",
+          "column": {
+            "start": "3",
+            "end": "6"
+          },
+          "background": "linear-gradient(62.8deg, #7C15FF 24.16%, #769CFF 102.94%)"
+        },
+
+        {
+          "title": "QA",
+          "description": "1 engineer",
+          "column": {
+            "start": "4",
+            "end": "5"
+          },
+          "background": "linear-gradient(62.8deg, #FF7979 24.16%, #89FF76 102.94%)"
+        }
+      ]
+    },
+
+    {
+      "id": "stack-migration",
+      "duration": "5",
+
+      "charts": [
+        {
+          "title": "Migration Analysis and Planning",
+          "description": "1 systems analyst",
+          "column": {
+            "start": "1",
+            "end": "2"
+          },
+          "background": "linear-gradient(62.8deg, #5084EC 24.16%, #FFD576 69.7%)",
+          "mod": "high"
+        },
+
+        {
+          "title": "Migrating from Angular to React",
+          "description": "1 systems analyst",
+          "column": {
+            "start": "2",
+            "end": "8"
+          },
+          "background": "linear-gradient(62.8deg, #68BBC4 24.16%, #FFD576 69.7%)"
+        },
+
+        {
+          "title": "Migrating from Angular to React",
+          "description": "4 front-end engineers",
+          "column": {
+            "start": "4",
+            "end": "6"
+          },
+          "background": "linear-gradient(62.8deg, #58A55C 24.16%, #FFD576 69.7%)"
+        },
+
+        {
+          "title": "Onboarding of client engineers",
+          "description": "1 senior engineer",
+          "column": {
+            "start": "8",
+            "end": "3"
+          },
+          "background": "linear-gradient(62.8deg, #5084EC 24.16%, #FFD576 69.7%)"
+        }
+      ]
+    },
+
+    {
+      "id": "mvp",
+      "duration": "6",
+
+      "charts": [
+        {
+          "title": "Migration Analysis and Planning",
+          "description": "1 systems analyst",
+          "column": {
+            "start": "1",
+            "end": "12"
+          },
+          "background": "linear-gradient(62.8deg, #68BBC4 24.16%, #EE752F 69.7%)"
+        },
+
+        {
+          "title": "Migrating from Angular to React",
+          "description": "1 systems analyst",
+          "column": {
+            "start": "2",
+            "end": "9"
+          },
+          "background": "linear-gradient(62.8deg, #EE752F 24.16%, #5084EC 69.7%)"
+        },
+
+        {
+          "title": "Migrating from Angular to React",
+          "description": "4 front-end engineers",
+          "column": {
+            "start": "3",
+            "end": "2"
+          },
+          "background": "linear-gradient(62.8deg, #5084EC 24.16%, #F3F3F3 69.7%)"
+        },
+
+        {
+          "title": "Onboarding of client engineers",
+          "description": "1 senior engineer",
+          "mod": "high",
+          "column": {
+            "start": "4",
+            "end": "9"
+          },
+          "background": "linear-gradient(62.8deg, #58A55C 24.16%, #F2BE42 69.7%)"
+        },
+
+        {
+          "title": "Onboarding of client engineers",
+          "description": "1 senior engineer",
+          "column": {
+            "start": "5",
+            "end": "8"
+          },
+          "background": "linear-gradient(62.8deg, #F2BE42 24.16%, #68BBC4 69.7%)"
+        }
+      ]
+    }
+  ]
+}
