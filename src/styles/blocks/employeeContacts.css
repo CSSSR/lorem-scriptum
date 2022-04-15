@@ -1,17 +1,16 @@
 .employeeCards {
-  display: flex;
+  display: grid;
   align-items: center;
-  flex-direction: column;
 
   margin-bottom: var(--space-xl);
   row-gap: var(--space-xl);
 
   @media (--tablet) {
     align-items: stretch;
-    flex-flow: row wrap;
+    grid-template-columns: repeat(2, 1fr);
 
     margin-bottom: var(--space-4xl);
-    column-gap: 0;
+    column-gap: var(--space-xl);
   }
 
   @media (--desktop-m) {
@@ -41,12 +40,6 @@
   @media (--desktop-m) {
     width: 588px;
     padding: var(--space-4xl);
-  }
-}
-
-.employeeCard + .employeeCard {
-  @media (--tablet) {
-    margin-left: var(--space-xl);
   }
 }
 
