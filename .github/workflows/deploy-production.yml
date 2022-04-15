@@ -1,4 +1,4 @@
-name: Деплой блога на прод
+name: Deploy for production
 on:
   push:
     branches:
@@ -7,7 +7,7 @@ concurrency: production_environment
 
 jobs:
   deploy:
-    name: Сборка прода
+    name: Build production
     runs-on: ubuntu-latest
 
     steps:
@@ -38,7 +38,7 @@ jobs:
         working-directory: lorem-scriptum
         run: yarn build
 
-      - name: Деплой на продакшен
+      - name: Deploy for production
         uses: ./actions/deploy-static-site/v1beta1
         with:
           auth: ${{ secrets.CDN_UPLOAD_SECRET }}

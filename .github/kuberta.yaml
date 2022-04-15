@@ -10,6 +10,7 @@ releases:
     static-params:
       projectID: lorem-scriptum
       tlsSecret: lorem-scriptum-tls
+      gzipCompression: enabled
     builds:
       - workflow: deploy-testing.yml
         values:
