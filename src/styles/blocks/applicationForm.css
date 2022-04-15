@@ -142,6 +142,8 @@
   width: 100%;
   height: 150px;
 
+  vertical-align: top;
+
   @media (--tablet) {
     height: 170px;
   }
