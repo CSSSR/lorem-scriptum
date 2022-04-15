@@ -1,4 +1,4 @@
-name: Деплой на тестинг
+name: Deploy for testing
 on:
   workflow_dispatch:
     inputs:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    name: Сборка тестинга
+    name: Build testing
     runs-on: ubuntu-latest
 
     steps:
