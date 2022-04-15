@@ -16,7 +16,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  row-gap: var(--space-m);
 
   @media (--tablet) {
     flex-direction: row;
@@ -39,6 +38,14 @@
 .services-link:not(:last-of-type) {
   @media (--desktop-m) {
     margin-right: var(--space-4xl);
+  }
+}
+
+.services-link + .services-link {
+  margin-top: var(--space-m);
+
+  @media (--tablet) {
+    margin-top: 0;
   }
 }
 
