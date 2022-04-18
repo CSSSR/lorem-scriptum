@@ -49,3 +49,4 @@ jobs:
           no-previous-files: 'true'
           host: loremscriptum.com
           environment: production
+          www: 'true'
