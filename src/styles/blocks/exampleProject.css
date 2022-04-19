@@ -270,7 +270,7 @@
   transform: translateX(-22px);
 
   @media (--tablet) {
-    transform: translateX(-1px);
+    transform: translateX(0);
   }
 }
 
