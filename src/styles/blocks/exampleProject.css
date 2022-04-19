@@ -272,6 +272,10 @@
   @media (--tablet) {
     transform: translateX(-1px);
   }
+
+  @media (--desktop-s) {
+    transform: translateX(0);
+  }
 }
 
 .diagram_web::after {
