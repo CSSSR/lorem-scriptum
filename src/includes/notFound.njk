@@ -1,0 +1,11 @@
+{% if notFound %}
+  <section class="notFound">
+    <div class="notFound__code">{{ notFound.code }}</div>
+
+    <h1 class="notFound__title">{{ notFound.title | safe }}</h1>
+
+    <p class="notFound__description">{{ notFound.description | safe }}</p>
+
+    <a class="button notFound__button" href="/">{{ notFound.button }}</p>
+  </section>
+{% endif %}

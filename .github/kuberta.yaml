@@ -11,6 +11,7 @@ releases:
       projectID: lorem-scriptum
       tlsSecret: lorem-scriptum-tls
       gzipCompression: enabled
+      notFoundPagePath: 404.html
     builds:
       - workflow: deploy-testing.yml
         values:
