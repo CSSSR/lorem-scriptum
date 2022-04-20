@@ -7,7 +7,7 @@ If you are resident in the European Economic Area and want to find out more abou
 
 If you have any questions, you may contact us (see «Contacting Us»).
 
-A reference to «Lorem Scriptum», «we» or «our» means Lorem Scriptum OÜ, a legal entity incorporated and validly existing in the Republic of Estonia with registered number 14742900, having its address at Harju maakond, Tallinn, Lasnamäe linnaosa, Majaka tn 26, 11412 and/or its affiliated companies.
+A reference to «Lorem Scriptum», «we» or «our» means Lorem Scriptum OÜ, a legal entity incorporated and validly existing in the Republic of Estonia with registered number 14742900, having its address at Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152 and/or its affiliated companies.
 
 A reference to the «Lorem Scriptum Properties» means (i) www.loremscriptum.com including all its subdomains and other websites operated by us (the «Website»), including (ii) all our software applications (the «Apps»), and (iii) all our social media pages (our «Social Media Pages»). Lorem Scriptum also collects information from individuals when they visit, use, or interact with the Lorem Scriptum Properties as defined above.
 
@@ -114,7 +114,7 @@ We will review and update this Policy periodically and will note the date of its
 
 If you have any questions about this Policy or Lorem Scriptum’s privacy practices, please contact us by email at  mailbox@loremscriptum.com, or by mail using the address details provided below.
 
-Please note that email communications are not always secure, so please do not include sensitive information in your emails to us. Lorem Scriptum OÜ, Harju maakond, Tallinn, Lasnamäe linnaosa, Majaka tn 26, 11412.
+Please note that email communications are not always secure, so please do not include sensitive information in your emails to us. Lorem Scriptum OÜ, Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152.
 
 To comply with our obligations under EU data protection legislation, we have appointed a Data Protection Officer (DPO). Our DPO is contactable at mailbox@loremscriptum.com or by mail using the details provided above.
 
