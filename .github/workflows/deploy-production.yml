@@ -50,3 +50,4 @@ jobs:
           host: loremscriptum.com
           environment: production
           www: 'true'
+          not-found-page: 404.html

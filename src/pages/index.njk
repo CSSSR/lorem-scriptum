@@ -8,10 +8,14 @@ permalink: index.html
 {% include 'header.njk' %}
 
 <main class="container mainPage">
+  {% if header.title %}
+    <h1 class="mainPage__title">{{ header.title | safe }}</h1>
+  {% endif %}
+
   {% include 'techStack.njk' %}
 
   {% if header.about %}
-    <h2 class="mainPage__title">{{ header.about | safe }}</h2>
+    <h2 class="mainPage__subtitle">{{ header.about | safe }}</h2>
   {% endif %}
 
   {% include 'applicationForm.njk' %}
