@@ -3,14 +3,15 @@
 
 This Cookie Policy describes the different types of cookies that may be applied on the equipment of the consumers who visit www.loremscriptum.com , including all its subdomains (the «Site»), owned and operated by Lorem Scriptum.
 
-A reference to «Lorem Scriptum», «we» or «our» means Lorem Scriptum OÜ, a legal entity incorporated and validly existing in the Republic of Estonia with registered number 14742900, having its address at Harju maakond, Tallinn, Lasnamäe linnaosa, Majaka tn 26, 11412 and/or its affiliated companies. We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal or regulatory reasons. Please therefore re-visit this Cookie Policy regularly to stay informed about our use of cookies and similar technologies. The date at the top of this Cookie Policy indicates when it was last updated.
+A reference to «Lorem Scriptum», «we» or «our» means Lorem Scriptum OÜ, a legal entity incorporated and validly existing in the Republic of Estonia with registered number 14742900, having its address at Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152 and/or its affiliated companies. We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal or regulatory reasons. Please therefore re-visit this Cookie Policy regularly to stay informed about our use of cookies and similar technologies. The date at the top of this Cookie Policy indicates when it was last updated.
 
 If you have any further queries, please contact us by email at mailbox@loremscriptum.com, or write to us at the following address:
 
 Lorem Scriptum OÜ
-Harju maakond, Tallinn,
-Lasnamäe linnaosa,
-Majaka tn 26, 11412
+Harju maakond, 
+Tallinn, Kesklinna linnaosa, 
+Vesivärava tn 50-201,
+10152
 
 Some cookies that we use through the Sites will collect personal information about you, or information that becomes personal information if we combine it with other data. Any personal information that we collect will be used in accordance with our Privacy Policy.
 
