@@ -5,7 +5,7 @@
   max-width: 328px;
   margin: 0 auto;
   margin-top: var(--space-2xl);
-  margin-bottom: var(--space-4xl);
+  margin-bottom: var(--space-3xl);
 
   text-align: center;
 
@@ -59,6 +59,7 @@
 }
 
 .notFound__description {
+  font-size: var(--font-size-s);
   font-weight: 300;
 
   margin-top: var(--space-m);
