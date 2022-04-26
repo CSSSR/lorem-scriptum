@@ -4,13 +4,14 @@ description: "Sorry, the page you are looking for doesn't exist or has been move
 layout: page.njk
 permalink: 404.html
 ---
+<div class="wrapper">
+  {% include 'header.njk' %}
 
-{% include 'header.njk' %}
+  <main class="container">
+    {% include 'notFound.njk' %}
+  </main>
 
-<main class="container">
-  {% include 'notFound.njk' %}
-</main>
+  {% include 'footer.njk' %}
 
-{% include 'footer.njk' %}
-
-{% include 'cookieBanner.njk' %}
+  {% include 'cookieBanner.njk' %}
+</div>
